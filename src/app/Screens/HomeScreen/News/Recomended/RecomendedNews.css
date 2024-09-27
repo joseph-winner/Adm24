@@ -1,0 +1,32 @@
+.recomended-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+@media(max-width:767px){
+    .recomended-items{
+        flex-direction: column;
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .recomended-item .news-card{
+        display: flex;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .recomended-item .news-card img{
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    .recomended-item .news-card h2{
+        font-size: 16px;
+    }
+}

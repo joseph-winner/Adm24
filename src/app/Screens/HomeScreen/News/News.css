@@ -1,0 +1,102 @@
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+
+  .embla__slide .news-card{
+    border-radius: 25px;
+  }
+
+  .breaking-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .breaking-item {
+    position: relative;
+    overflow: hidden;
+    height: 380px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.breaking-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.breaking-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+}
+
+.breaking-item .breaking-desc {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    z-index: 1;
+    padding: 15px;
+}
+
+.breaking-title{
+    font-size: 26px;
+}
+
+.breaking-top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.breaking-by{
+    font-size: 12px;
+}
+
+.breaking-at{
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.breaking-section{
+    display: flex;
+    gap: 25px;
+}
+.breaking-section>*{
+    flex: 1 1 45%;
+}
+
+.breaking-main-sect{
+    margin: 15px;
+    margin-top: 35px;
+}
+
+.breaking-main-sect h2{
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:767px){
+    .breaking-item {
+        width: 95%;
+        border-radius: 30px;
+    }
+
+    .breaking-section{
+        flex-direction: column;
+    }
+    
+}
