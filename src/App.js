@@ -8,6 +8,7 @@ import RecomendedNews from "./app/Screens/HomeScreen/News/Recomended/RecomendedN
 import PopularProducts from "./app/Screens/HomeScreen/PopularProducts/PopularProducts";
 import UpcomingEvents from "./app/Screens/HomeScreen/Events/UpcomingEvents";
 
+
 function App() {
   return (
     <div className="app">
