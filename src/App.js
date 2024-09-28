@@ -8,6 +8,7 @@ import RecomendedNews from "./app/Screens/HomeScreen/News/Recomended/RecomendedN
 import PopularProducts from "./app/Screens/HomeScreen/PopularProducts/PopularProducts";
 import UpcomingEvents from "./app/Screens/HomeScreen/Events/UpcomingEvents";
 import Navbar from "./app/components/Navbar/Navbar";
+import Footer from "./app/components/Footer/Footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <RecomendedNews />
       <PopularProducts />
       <UpcomingEvents />
+      <Footer />
     </div>
   );
 }

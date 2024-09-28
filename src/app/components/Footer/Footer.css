@@ -1,0 +1,143 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.footer-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.footer-cta-items{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 40px;
+    border-radius: 20px;
+    color: #111;
+    text-align: left;
+}
+
+.footer-cta-btn{
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    color: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.footer-cta-right{
+    margin-left: auto;
+}
+
+.footer-cta-right img{
+    width: 200px;
+}
+.footer-cta-items h1 {
+    margin: 0;
+}
+
+@media(max-width:767px){
+    .footer-cta-right{
+        display: none;
+    }
+    .footer-cta-right img{
+        display: none;
+    }
+
+    .footer-cta-items{
+        flex-direction: column;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .footer-cta {
+        margin-top: 35px;
+    }
+    .footer-cta-items h1 {
+        font-size: 22px;
+    }
+}
+/* ----------------------------------------------------------- */
+.links, .resources {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px 50px;
+}
+
+.footer-resources ul{
+    list-style: none;
+}
+
+.footer-resources ul li a{
+    text-decoration: none;
+    color: #111;
+}
+
+.footer-resources h3, .subscribe h3{
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.subscribe {
+    margin-top: 20px;
+}
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #6a7fcb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4e65a6;
+}
+
+.social-icons span a{
+    text-decoration: none;
+    color: #111;
+    font-size: 22px;
+    padding: 6px;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+@media(max-width:767px){
+    .links, .resources {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+        margin: 20px 15px;
+    }
+    .footer {
+        padding: 15px;
+    }
+
+    input[type="email"] {
+        width: 90%;
+    }
+    button {
+        display: block;
+        margin-top: 5px;
+    }
+}
