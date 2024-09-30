@@ -33,7 +33,7 @@ export default function Jobs() {
   ];
   return (
     <div className="jobs-section">
-    <h4>Top Results</h4>
+    <h4>Top Job Results</h4>
       <div className="jobs-container">
         <div className="top-jobs">
           {TopJobs.map((TopJob, index) => (

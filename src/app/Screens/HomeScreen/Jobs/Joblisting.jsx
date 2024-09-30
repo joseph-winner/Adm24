@@ -55,7 +55,7 @@ export default function Joblisting() {
   ];
   return (
     <div className="job-listings">
-      <p className="listings-title">Find Job</p>
+      <p className="listings-title">Find Jobs</p>
       <div className="job-listing-rows">
       {JobListings.map((JobListing, index) => (
         <JoblistingComponent
