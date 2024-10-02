@@ -1,14 +1,19 @@
 import React from 'react';
 import './ProductComponent.css';
 import { FaHeart } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 export default function ProductComponent({ productName, productPrice, productDesc, productImg }) {
+  const Navigate = useNavigate()
+  const handleProduct = () =>{
+    Navigate("/Product")
+  }
   return (
     <div className="product-container">
       <img
         src={productImg}
         alt={productName}
-        className="product-image"
+        className="product-image" onClick={handleProduct}
       />
       <span className='favorite-icon'>
         <FaHeart />

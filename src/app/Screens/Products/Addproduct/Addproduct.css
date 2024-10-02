@@ -1,0 +1,85 @@
+#productImage, #extraImages{
+    display: none;
+}
+
+.Adding-post-form{
+    margin: 15px;
+    padding-top: 10px;
+}
+
+.image-label-single{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    font-weight: 600;
+    width: fit-content;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.image-label{
+    border: 2px solid #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    width: fit-content;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #333;
+}
+
+.image-label span, .image-label-single span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    color: #fff;
+}
+
+.Adding-post-form input{
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+.Adding-post-form button{
+    background: none;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 500;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+@media(min-width:767px){
+    .add-prod-sect{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-prod-cont{
+        max-width: 700px;
+    }
+}
