@@ -3,7 +3,7 @@ import "./SingleHeader.css";
 import { FaChevronLeft } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
-export default function SingleHeader({title}) {
+export default function SingleHeader({ title }) {
     const navigate = useNavigate();
 
     const HandlePrev = () => {
