@@ -9,6 +9,7 @@ import RecomendedNews from '../Screens/HomeScreen/News/Recomended/RecomendedNews
 import PopularProducts from '../Screens/HomeScreen/PopularProducts/PopularProducts'
 import UpcomingEvents from '../Screens/HomeScreen/Events/UpcomingEvents'
 import Jobs from '../Screens/HomeScreen/Jobs/Jobs'
+import GroupRecomendation from '../Screens/HomeScreen/GroupRecomendation/GroupRecomendation'
 
 export default function HomeScreen() {
   return (
@@ -19,6 +20,7 @@ export default function HomeScreen() {
         <Cta />
         <News />
         <RecomendedNews />
+        <GroupRecomendation />
         <PopularProducts />
         <UpcomingEvents />
         <Jobs />

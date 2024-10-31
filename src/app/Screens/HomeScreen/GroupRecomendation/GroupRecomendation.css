@@ -1,0 +1,53 @@
+.group-recomendation-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-recomendations-section {
+  margin: 15px;
+}
+
+.group-recomendation-container > * {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEDIA QUERRY */
+@media (max-width: 767px) {
+  .group-recomendation-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: unset;
+    width: 100%;
+  }
+
+  .group-recomendation-container > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    flex-wrap: unset;
+    justify-content: start;
+  }
+
+  .group-recomendation-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .group-recomendation-container > * {
+    display: flex;
+    gap: 25px;
+    justify-content: start;
+  }
+  .group-recomendations-section h2{
+    font-size: 16px;
+  }
+}
