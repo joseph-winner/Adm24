@@ -17,12 +17,12 @@
 
 .inline-recommeded-desc{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     margin-top: 12px;
 }
 
 .recommeded-group-desc h4{
-    width: 100%;
+    width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
